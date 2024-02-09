@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  position: relative !important;
+  padding-left: 0 !important;
+  width: 400px !important;
+  box-shadow: none !important;
+  background-size: 100vh !important;
+}
+
+#df-chat-log {
+  overflow-y: hidden !important;
+}
+
+.dfce-cm-top,
+.dfce-cm-middle,
+.dfce-cm-bottom {
+  border-radius: 5px !important;
+  margin-bottom: 3px !important;
+  padding: 5px !important;
+}
+
+.message-timestamp {
+  display: none !important;
+}
+
+.message-delete {
+  display: none !important;
+}
+
+.dice-total {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.item-control.roll-npc {
+  display: none !important;
+}
+
+.item-control.roll-all {
+  display: none !important;
+}
+
+.card-footer div:nth-child(1) {
+  display: none !important;
+}
